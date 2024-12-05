@@ -1,7 +1,7 @@
 # TddCoursesIES
 
 ## Los invitados pueden
-* Ver la descripción de los cursos (página home)
+* Ver la descripción de los cursos (página home) 
 * Ver los detalles del curso (página)
 * Comprar un curso (se accede desde los detalles del curso)
 
