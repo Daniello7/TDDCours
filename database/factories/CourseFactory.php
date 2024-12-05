@@ -3,8 +3,8 @@
 namespace Database\Factories;
 
 use App\Models\Course;
-use Illuminate\Database\Eloquent\Factories\Factory;
 use Carbon\Carbon;
+use Illuminate\Database\Eloquent\Factories\Factory;
 
 class CourseFactory extends Factory
 {
@@ -18,10 +18,10 @@ class CourseFactory extends Factory
         ];
     }
 
-    public function released(Carbon $date = null): self
+    public function released(?Carbon $date = null): self
     {
         return $this->state(
-            fn(array $attributes) => ['released_at' => $date ?? Carbon::now()]
+            fn (array $attributes) => ['released_at' => $date ?? Carbon::now()]
         );
     }
 }
